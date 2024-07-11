@@ -1,0 +1,40 @@
+html,
+body {
+  margin: 0;
+}
+img {
+  transform: scale(2);
+  transform-origin: 50% 70%;
+}
+
+.top,
+.bottom {
+  height: 100vh;
+}
+
+.wrap {
+  height: 500vh;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  background-color: blue;
+}
+
+.zobject {
+  position: sticky;
+  top: 0;
+}
+
+.testobj {
+  width: 80%;
+  position: sticky;
+  top: 0;
+  background-color: chartreuse;
+}
+
+.top {
+  background-color: green;
+}
+.bottom {
+  background-color: red;
+}
