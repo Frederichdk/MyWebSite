@@ -1,9 +1,0 @@
-.top,
-.bottom {
-  height: 100vh;
-}
-
-.wrap {
-  height: 200vh;
-  display: flex;
-}
